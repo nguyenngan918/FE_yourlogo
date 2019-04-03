@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#slmax").owlCarousel({items:1,loop:!0,nav:!0,navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']}),$("#slmin").owlCarousel({items:4,loop:!0,margin:20});var l=$("#slmin");l.owlCarousel(),$(".next").click(function(){l.trigger("next.owl.carousel")}),$(".prev").click(function(){l.trigger("prev.owl.carousel",[300])})});

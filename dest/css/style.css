@@ -1,0 +1,350 @@
+.flex {
+  display: flex; }
+
+.alignCenter {
+  align-items: center; }
+
+.container {
+  width: 87%;
+  margin: auto; }
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.fix {
+  position: fixed; }
+
+a {
+  cursor: pointer; }
+
+header#header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background: #fff; }
+  header#header .container.flex.alignCenter {
+    height: 80px; }
+    header#header .container.flex.alignCenter .list {
+      margin-left: auto; }
+      header#header .container.flex.alignCenter .list ul.flex {
+        margin-right: 20px; }
+        header#header .container.flex.alignCenter .list ul.flex li {
+          padding: 10px 15px; }
+          header#header .container.flex.alignCenter .list ul.flex li a {
+            font-size: 15px;
+            color: #333;
+            font-family: "Fjalla One"; }
+            header#header .container.flex.alignCenter .list ul.flex li a:hover {
+              color: #2dcc70; }
+            header#header .container.flex.alignCenter .list ul.flex li a i.fa.fa-angle-down {
+              padding-left: 5px; }
+          header#header .container.flex.alignCenter .list ul.flex li:first-child a {
+            color: #2dcc70; }
+          header#header .container.flex.alignCenter .list ul.flex li .dropdow {
+            display: none; }
+
+.centerText {
+  text-align: center; }
+
+main#part1.container {
+  justify-content: space-between;
+  background-color: #fff;
+  color: #999;
+  padding: 50px 0; }
+  main#part1.container .content1 h4 {
+    font-family: "Fjalla One";
+    margin: 0 0 10px;
+    line-height: 20px;
+    font-weight: normal;
+    font-size: 17.5px; }
+  main#part1.container .content1 p {
+    font-size: 12px; }
+  main#part1.container .btn {
+    display: inline-block;
+    font-size: 17.5px; }
+    main#part1.container .btn a {
+      padding: 11px 19px;
+      background-color: #5bb75b;
+      color: white; }
+
+main#part2 {
+  background-color: #252525; }
+
+.middle {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.part2.container {
+  padding: 50px 0px;
+  color: #fff; }
+  .part2.container p {
+    margin: 0 0 10px;
+    color: #999; }
+  .part2.container h3 {
+    margin: 0 0 10px;
+    font-family: "Fjalla One";
+    font-weight: normal;
+    font-size: 25px; }
+  .part2.container p.centerText {
+    margin: 20px 0 20px;
+    margin-bottom: 20px;
+    font-size: 21px; }
+  .part2.container ul {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .part2.container ul li {
+      width: 370px;
+      padding-top: 40px; }
+      .part2.container ul li .contain {
+        width: 320px; }
+        .part2.container ul li .contain h4 {
+          font-weight: normal;
+          margin: 0 0 5px;
+          font-size: 16px;
+          font-family: "Fjalla One"; }
+        .part2.container ul li .contain p {
+          font-size: 13px;
+          line-height: 20px;
+          font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+      .part2.container ul li .iconp2 {
+        position: relative;
+        font-family: FontAwesome;
+        font-size: 18px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #2dcc70;
+        margin-right: 10px; }
+      .part2.container ul li .icon1::before {
+        content: "\f0ac";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+      .part2.container ul li .icon2::before {
+        content: "\f087";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+      .part2.container ul li .icon3::before {
+        content: "\f06c";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+      .part2.container ul li .icon4::before {
+        content: "\f07a";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+      .part2.container ul li .icon1::before {
+        content: "\f0ac";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+      .part2.container ul li .icon1::before {
+        content: "\f0ac";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+
+main#slider {
+  padding-top: 80px;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  main#slider .slide1 {
+    background: #2b4bb5; }
+  main#slider .slide2 {
+    background-color: #008c00; }
+  main#slider .slide3 {
+    background-color: #c30000; }
+  main#slider .slide.container {
+    justify-content: space-between; }
+    main#slider .slide.container .contain h2 {
+      padding: 170px 0 0;
+      margin: 0;
+      font-size: 60px;
+      z-index: 100;
+      font-family: "Fjalla One";
+      word-wrap: break-word;
+      color: #fff;
+      font-weight: normal; }
+    main#slider .slide.container .contain h3 {
+      font-size: 25px;
+      font-family: "Fjalla One";
+      font-weight: normal;
+      z-index: 100;
+      margin: 0 0 50px;
+      color: #fff; }
+    main#slider .slide.container .contain .btn {
+      border: 3px solid #fff;
+      background: transparent;
+      display: inline-block;
+      padding: 20px 40px;
+      font-size: 17.5px; }
+      main#slider .slide.container .contain .btn a {
+        color: #fff; }
+    main#slider .slide.container .image img {
+      width: 650px;
+      height: 520px;
+      z-index: 100; }
+  main#slider .owl-prev {
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    font-size: 50px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.3); }
+    main#slider .owl-prev:hover {
+      color: white; }
+  main#slider .owl-next {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    font-size: 50px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.3); }
+    main#slider .owl-next:hover {
+      color: white; }
+
+main#part3 {
+  background: #2dcc70;
+  color: #fff; }
+  main#part3 .part3.container {
+    padding: 50px 0px; }
+    main#part3 .part3.container .title h3 {
+      font-family: "Fjalla One";
+      font-size: 25px;
+      margin: 0 0 10px;
+      font-weight: normal; }
+    main#part3 .part3.container .title p.centerText {
+      font-size: 21px;
+      margin: 20px 0 40px; }
+    main#part3 .part3.container ul {
+      justify-content: space-between;
+      margin: 70px 0px; }
+      main#part3 .part3.container ul li p {
+        font-size: 14px;
+        margin-top: 10px;
+        font-weight: bold; }
+
+main#part4 .part4.container.flex {
+  justify-content: space-between;
+  padding: 50px 0;
+  color: #999; }
+  main#part4 .part4.container.flex .item-left {
+    width: 170px;
+    height: 160px; }
+    main#part4 .part4.container.flex .item-left h4 {
+      font-size: 17.5px;
+      font-family: "Fjalla One";
+      font-weight: normal;
+      margin: 0 0 10px; }
+    main#part4 .part4.container.flex .item-left #icon .next {
+      display: inline-block;
+      position: relative;
+      font-family: FontAwesome;
+      padding-left: 180px; }
+      main#part4 .part4.container.flex .item-left #icon .next::before {
+        position: absolute;
+        content: "\f104";
+        font-size: 20px;
+        color: #999; }
+    main#part4 .part4.container.flex .item-left #icon .prev {
+      display: inline-block;
+      position: relative;
+      font-family: FontAwesome;
+      margin-left: 10px; }
+      main#part4 .part4.container.flex .item-left #icon .prev::before {
+        position: absolute;
+        content: "\f105";
+        font-size: 20px;
+        color: #999; }
+    main#part4 .part4.container.flex .item-left p {
+      font-size: 12px;
+      font: "Fjalla One";
+      margin: 20px 0 10px; }
+  main#part4 .part4.container.flex .item-right ul {
+    width: 970px;
+    padding-left: 20px; }
+    main#part4 .part4.container.flex .item-right ul li {
+      margin-left: 0px; }
+      main#part4 .part4.container.flex .item-right ul li a img {
+        width: 150px;
+        height: 150px; }
+
+main#part5 {
+  color: #6f6f6f;
+  background: #232323;
+  padding: 50px 0; }
+  main#part5 .part5.container ul.flex {
+    justify-content: space-between; }
+    main#part5 .part5.container ul.flex li h4 {
+      color: white;
+      font-size: 18px;
+      margin: 0 0 15px;
+      font-family: "Fjalla One";
+      font-weight: normal; }
+    main#part5 .part5.container ul.flex li p {
+      font-size: 12px;
+      padding-bottom: 20px;
+      font-family: "Helvetica Neue"Helvetica,Arial,sans-serif; }
+    main#part5 .part5.container ul.flex li ul li {
+      display: flex;
+      position: relative; }
+      main#part5 .part5.container ul.flex li ul li .icon {
+        position: absolute;
+        top: 0;
+        left: -20px; }
+      main#part5 .part5.container ul.flex li ul li a {
+        color: #6f6f6f; }
+        main#part5 .part5.container ul.flex li ul li a:hover {
+          color: #2dcc70; }
+
+main#part6 {
+  color: #666;
+  background: #333; }
+  main#part6 .part6.container {
+    padding: 15px 0px;
+    justify-content: space-between;
+    align-items: center; }
+    main#part6 .part6.container ul {
+      justify-content: space-between;
+      margin: 10px 0 0;
+      margin-left: auto; }
+      main#part6 .part6.container ul li {
+        margin: 10px; }
+        main#part6 .part6.container ul li a {
+          color: #666; }
+          main#part6 .part6.container ul li a i.fab {
+            font-size: 30px; }
+    main#part6 .part6.container .scollTop {
+      margin-left: 50px;
+      background: #1d1d1d;
+      width: 40px;
+      height: 40px;
+      position: relative;
+      opacity: 1; }
+      main#part6 .part6.container .scollTop i.fa.fa-angle-up {
+        content: " ";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        font-size: 24px;
+        color: #fff; }
+      main#part6 .part6.container .scollTop:hover {
+        opacity: 0.5; }
+
+footer#footer {
+  padding: 120px 0 20px; }
+  footer#footer .container {
+    text-align: center; }
